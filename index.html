@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Interacting With APIs - Project 4</title>
+	<script src="https://kit.fontawesome.com/ae280f9e8b.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js" async></script>
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/hotdog-solid.svg">
+</head>
+
+<body>
+	<h1>Task Lister - Project 4</h1>
+	<h3>Enter a task - Max length is 50 characters</h3>
+	<h3>Tasks must be unique</h3>
+	<h3>Double click on listed task to edit it.</h3>
+	<div class="input">
+		<input class="css-input" type="text" id="task" maxlength="50">
+		<button type="button" class="buttonClass" id="newTask" name="button">Add Task</button>
+		<div class="loaderContainer"></div>
+	</div>
+	<div class="output">
+		<ul class="lister"></ul>
+	</div>
+	<footer>
+		<p>Project 4 - Advanced Javascript</p>
+		<p><i class="fas fa-copyright"></i> palmerlarson 2022</p>
+	</footer>
+
+</body>
+
+</html>
